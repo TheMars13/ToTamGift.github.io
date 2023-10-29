@@ -1,0 +1,514 @@
+            body {
+                background-color: #a8ffc9;
+                padding: 0;
+                margin: 0;
+            }
+            
+            .container {
+                height: 400px;
+                width: 400px;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                Left: 0;
+                margin-left: 300px;
+                margin-top: 90px;
+            }
+            
+            .branch {
+                background-color: #fc7753;
+                height: 15px;
+                width: 650px;
+                position: absolute;
+                top: 260px;
+                Left: 0;
+                border-radius: 0 15px 15px 0;
+                z-index: 1;
+                margin-left: -303px;
+            }
+            
+            .branch>div {
+                background-color: #fc7753;
+                height: 8px;
+                width: 50px;
+                transform: rotate(-30deg);
+                position: relative;
+                bottom: 10px;
+                Left: 250px;
+                border-radius: 8px;
+                margin-left: 310px;
+            }
+            
+            .branch2>div {
+                background-color: #fc7753;
+                height: 8px;
+                width: 83px;
+                transform: rotate(30deg);
+                position: relative;
+                bottom: 10px;
+                Left: 250px;
+                border-radius: 8px;
+                margin-left: 310px;
+                margin-left: -441px;
+                padding-top: 0px;
+                margin-top: 289px;
+                margin-right: 0px;
+            }
+            
+            .owl {
+                background-color: #cfae69;
+                height: 160px;
+                width: 120px;
+                border-radius: 120px;
+                position: absolute;
+                top: 125px;
+                Left: 100px;
+            }
+            
+            .ear-r,
+            .ear-l {
+                height: 0;
+                width: 0;
+                border-bottom: 33px solid #a6813b;
+                border-left: 15px solid transparent;
+                border-right: 15px solid transparent;
+                position: relative;
+                z-index: -2;
+            }
+            
+            .ear-l {
+                bottom: 10px;
+                Left: 3px;
+                transform: rotate(-20deg);
+            }
+            
+            .ear-r {
+                bottom: 42px;
+                Left: 88px;
+                transform: rotate(20deg);
+            }
+            
+            .wing-l,
+            .wing-r {
+                background-color: #a6813b;
+                height: 80px;
+                width: 20px;
+                position: relative;
+                z-index: 2;
+            }
+            
+            .wing-l {
+                right: 8px;
+                top: 4px;
+                border-radius: 20px 0;
+            }
+            
+            .wing-r {
+                border-radius: 0 20px;
+                bottom: 76px;
+                Left: 108px;
+            }
+            
+            .eye-l,
+            .eye-r {
+                height: 41px;
+                width: 41px;
+                background-color: #a6813b;
+                border-radius: 50%;
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .eye-l {
+                bottom: 190px;
+                left: 12px;
+            }
+            
+            .eye-r {
+                bottom: 230px;
+                left: 67px;
+            }
+            
+            .eye-l:before,
+            .eye-r::before {
+                content: '';
+                position: absolute;
+                background-color: #fff;
+                height: 32px;
+                width: 32px;
+                border-radius: 58%;
+                position: absolute;
+                Left: 4.5px;
+                top: 4.5px;
+            }
+            
+            .eyeball {
+                height: 15px;
+                width: 15px;
+                background-color: #424242;
+                border-radius: 50%;
+                position: absolute;
+                top: 13px;
+                Left: 13px;
+            }
+            
+            .eyelid {
+                height: 50px;
+                background-color: #a6813b;
+                width: 58px;
+                position: relative;
+                bottom: 30px;
+                right: 5px;
+                animation: blink 2s infinite;
+            }
+            
+            @keyframes blink {
+                30% {
+                    transform: translateY(18px);
+                }
+            }
+            
+            .beak {
+                width: 0;
+                height: 0;
+                border-left: 12px solid transparent;
+                border-right: 12px solid transparent;
+                border-top: 20px solid #ffcc38;
+                border-radius: 50%;
+                position: relative;
+                bottom: 240px;
+                Left: 47.5px;
+            }
+            
+            .leg-l,
+            .leg-r {
+                background-color: #ffcc38;
+                height: 9px;
+                width: 20px;
+                position: relative;
+                z-index: 2;
+                border-radius: 8px;
+            }
+            
+            .leg-l {
+                bottom: 197px;
+                Left: 25px;
+            }
+            
+            .leg-r {
+                bottom: 206px;
+                Left: 75px;
+            }
+            
+            .owl2 {
+                background-color: #cfae69;
+                height: 160px;
+                width: 120px;
+                border-radius: 120px;
+                position: absolute;
+                top: 125px;
+                Left: -100px;
+            }
+            
+            .ear-r2,
+            .ear-l2 {
+                height: 0;
+                width: 0;
+                border-bottom: 33px solid #805c1a;
+                border-left: 15px solid transparent;
+                border-right: 15px solid transparent;
+                position: relative;
+                z-index: -2;
+            }
+            
+            .ear-l2 {
+                bottom: 10px;
+                Left: 3px;
+                transform: rotate(-20deg);
+            }
+            
+            .ear-r2 {
+                bottom: 42px;
+                Left: 88px;
+                transform: rotate(20deg);
+            }
+            
+            .wing-l2,
+            .wing-r2 {
+                background-color: #805c1a;
+                height: 80px;
+                width: 20px;
+                position: relative;
+                z-index: 2;
+            }
+            
+            .wing-l2 {
+                right: 8px;
+                top: 4px;
+                border-radius: 20px 0;
+            }
+            
+            .wing-r2 {
+                border-radius: 0 20px;
+                bottom: 76px;
+                Left: 108px;
+            }
+            
+            .eye-l2,
+            .eye-r2 {
+                height: 41px;
+                width: 41px;
+                background-color: #805c1a;
+                border-radius: 50%;
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .eye-l2 {
+                bottom: 190px;
+                left: 12px;
+            }
+            
+            .eye-r2 {
+                bottom: 230px;
+                left: 67px;
+            }
+            
+            .eye-l2:before,
+            .eye-r2::before {
+                content: '';
+                position: absolute;
+                background-color: #fff;
+                height: 32px;
+                width: 32px;
+                border-radius: 58%;
+                position: absolute;
+                Left: 4.5px;
+                top: 4.5px;
+            }
+            
+            .eyeball2 {
+                height: 15px;
+                width: 15px;
+                background-color: #424242;
+                border-radius: 50%;
+                position: absolute;
+                top: 13px;
+                Left: 13px;
+            }
+            
+            .eyelid2 {
+                height: 50px;
+                background-color: #805c1a;
+                width: 58px;
+                position: relative;
+                bottom: 30px;
+                right: 5px;
+                animation: blink 2s infinite;
+            }
+            
+            @keyframes blink {
+                30% {
+                    transform: translateY(18px);
+                }
+            }
+            
+            .beak2 {
+                width: 0;
+                height: 0;
+                border-left: 12px solid transparent;
+                border-right: 12px solid transparent;
+                border-top: 20px solid rgb(255, 225, 56);
+                border-radius: 50%;
+                position: relative;
+                bottom: 240px;
+                Left: 47.5px;
+            }
+            
+            .leg-l2,
+            .leg-r2 {
+                background-color: rgb(255, 225, 56);
+                height: 9px;
+                width: 20px;
+                position: relative;
+                z-index: 2;
+                border-radius: 8px;
+            }
+            
+            .leg-l2 {
+                bottom: 197px;
+                Left: 25px;
+            }
+            
+            .leg-r2 {
+                bottom: 206px;
+                Left: 75px;
+            }
+            /* Switch Mood */
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            .body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+            }
+            
+            .checkbox {
+                opacity: 0;
+                position: absolute;
+            }
+            
+            .label {
+                background-color: rgb(7, 112, 107);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-radius: 50px;
+                padding: 5px;
+                height: 26px;
+                width: 50px;
+                position: relative;
+                margin-left: 600px;
+                margin-top: 20px;
+            }
+            
+            .ball {
+                background-color: #fff;
+                border-radius: 50%;
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                width: 22px;
+                height: 22px;
+                transition: transform 0.2s linear;
+            }
+            
+            .checkbox:checked+.label .ball {
+                transform: translateX(24px);
+            }
+            
+            .fa-moon {
+                color: silver;
+            }
+            
+            .fa-sun {
+                color: #f39c12;
+            }
+            
+            body.dark {
+                background-color: rgb(10, 22, 22);
+            }
+            
+            body.dark p {
+                color: rgb(7, 112, 107);
+            }
+            
+            body.dark h1 {
+                color: #00ffbf;
+            }
+            
+            button {
+                background: #cfae69;
+                border: none;
+                cursor: pointer;
+                height: 50px;
+                width: 100px;
+                padding-right: 4px;
+                margin-right: -38px;
+                margin-left: -51px;
+            }
+            /* Card */
+            
+            .congratCard {
+                position: relative;
+                width: 250px;
+                height: 350px;
+                margin-left: 800px;
+                margin-top: 100px;
+                cursor: pointer;
+                transform-style: preserve-3d;
+                transform: perspective(2500px);
+                transition: 4s;
+            }
+            
+            .congratCard:hover {
+                transform: perspective(2500px) rotate(5deg);
+                box-shadow: inset 100px 20px 100px rgba(0, 0, 0, .15), 0 10px 100px rgba(0, 0, 0, 0.3);
+            }
+            
+            .congratCard:hover .cardFront {
+                transform: rotateY(-160deg);
+            }
+            
+            .congratCard:hover .front-text {
+                display: none;
+            }
+            
+            .congratCard:hover .wrap-deco {
+                display: none;
+            }
+            
+            .congratCard:hover .wrap-decoTwo {
+                display: none;
+            }
+            
+            .congratCard:hover .plate {
+                display: none;
+            }
+            
+            .cardFront {
+                position: relative;
+                background-color: #fff;
+                width: 250px;
+                height: 350px;
+                overflow: hidden;
+                transform-origin: left;
+                box-shadow: inset 100px 20px 100px rgba(0, 0, 0, .13), 30px 0 50px rgba(0, 0, 0, 0.1);
+                transition: .4s;
+            }
+            
+            .cardFront img {
+                height: 100%;
+                width: 100%;
+            }
+            
+            .cardInside {
+                position: absolute;
+                background-color: #fff;
+                width: 250px;
+                height: 350px;
+                z-index: -1;
+                left: 0;
+                top: 0;
+                box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+            }
+            
+            .pic {
+                position: relative;
+                top: -40px;
+                transform: scale(0.5);
+            }
+            
+            .pic img {
+                width: 253px;
+            }
+            
+            .wishes {
+                position: relative;
+                top: -100px;
+                margin: 0 15px 25px 25px;
+            }
+            
+            p {
+                color: #333;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            
+            .name {
+                margin-left: 90px;
+            }
